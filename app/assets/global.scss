@@ -1,0 +1,58 @@
+// Global overrides for Vuetify dark theme
+:root {
+  --font-serif: 'Noto Serif TC', Georgia, serif;
+  --color-accent: #c9a84c;
+  --color-accent-hover: #dabb66;
+  --color-accent-dim: rgba(201, 168, 76, 0.15);
+  --color-major: #9b59b6;
+  --color-wands: #e74c3c;
+  --color-cups: #3498db;
+  --color-swords: #95a5a6;
+  --color-pentacles: #f39c12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a14;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a45;
+  border-radius: 4px;
+}
+
+// Vuetify overrides
+.v-application {
+  font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.font-serif {
+  font-family: var(--font-serif) !important;
+}
+
+// Twinkle animation for stars
+@keyframes twinkle {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.8; }
+}
+
+// Card flip animation
+@keyframes flipCard {
+  0% { transform: rotateY(0deg) scale(1); }
+  50% { transform: rotateY(90deg) scale(0.95); }
+  100% { transform: rotateY(0deg) scale(1); }
+}
+
+.flip-animation {
+  animation: flipCard 0.8s ease-in-out;
+}

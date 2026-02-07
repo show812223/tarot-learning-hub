@@ -1,11 +1,16 @@
-import { useState, useCallback } from 'react';
-import type { TarotCard } from '../data/types';
-import { allCards } from '../data/cards';
+import type { TarotCard } from '~/data/types';
+import { allCards } from '~/data/cards';
 
 interface DailyDrawRecord {
   date: string;
   cardId: string;
   reversed: boolean;
+}
+
+export interface DailyDrawResult {
+  card: TarotCard;
+  reversed: boolean;
+  date: string;
 }
 
 const STORAGE_KEY = 'tarot-daily-draws';
@@ -27,25 +32,17 @@ function saveRecords(records: DailyDrawRecord[]) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(records));
 }
 
-export interface DailyDrawResult {
-  card: TarotCard;
-  reversed: boolean;
-  date: string;
-}
-
 export function useDailyDraw() {
-  const [records] = useState<DailyDrawRecord[]>(loadRecords);
-
-  const getTodayDraw = useCallback((): DailyDrawResult | null => {
+  function getTodayDraw(): DailyDrawResult | null {
     const today = getTodayStr();
     const rec = loadRecords().find((r) => r.date === today);
     if (!rec) return null;
     const card = allCards.find((c) => c.id === rec.cardId);
     if (!card) return null;
     return { card, reversed: rec.reversed, date: rec.date };
-  }, []);
+  }
 
-  const drawCard = useCallback((): DailyDrawResult => {
+  function drawCard(): DailyDrawResult {
     const today = getTodayStr();
     const existing = loadRecords().find((r) => r.date === today);
     if (existing) {
@@ -62,9 +59,9 @@ export function useDailyDraw() {
     saveRecords(allRecords);
 
     return { card, reversed, date: today };
-  }, []);
+  }
 
-  const getHistory = useCallback((): DailyDrawResult[] => {
+  function getHistory(): DailyDrawResult[] {
     return loadRecords()
       .sort((a, b) => b.date.localeCompare(a.date))
       .map((rec) => {
@@ -73,7 +70,7 @@ export function useDailyDraw() {
         return { card, reversed: rec.reversed, date: rec.date };
       })
       .filter((r): r is DailyDrawResult => r !== null);
-  }, []);
+  }
 
-  return { getTodayDraw, drawCard, getHistory, records };
+  return { getTodayDraw, drawCard, getHistory };
 }

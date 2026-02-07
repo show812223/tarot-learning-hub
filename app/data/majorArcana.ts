@@ -2,16 +2,8 @@ import type { TarotCard } from './types';
 
 export const majorArcana: TarotCard[] = [
   {
-    id: 'major-0',
-    number: 0,
-    name: '愚者',
-    nameEn: 'The Fool',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['新開始', '冒險', '自由', '天真', '無限可能'],
-      reversed: ['魯莽', '恐懼', '冒失', '停滯不前'],
-    },
+    id: 'major-0', number: 0, name: '愚者', nameEn: 'The Fool', suit: 'major', element: 'spirit',
+    keywords: { upright: ['新開始', '冒險', '自由', '天真', '無限可能'], reversed: ['魯莽', '恐懼', '冒失', '停滯不前'] },
     description: {
       upright: '愚者代表一段嶄新旅程的開始。他背著簡單的行囊，毫無畏懼地踏向懸崖邊緣，象徵著對未知的無畏與信任。這張牌鼓勵你勇敢踏出舒適圈，擁抱新的可能性。',
       reversed: '逆位的愚者暗示你可能因恐懼而裹足不前，或者相反地，做出了過於魯莽的決定而未經深思熟慮。需要在冒險與謹慎之間找到平衡。',
@@ -21,16 +13,8 @@ export const majorArcana: TarotCard[] = [
     career: '適合嘗試新的職業方向或創業，保持開放心態面對機會。',
   },
   {
-    id: 'major-1',
-    number: 1,
-    name: '魔術師',
-    nameEn: 'The Magician',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['創造力', '意志力', '技能', '資源充足', '顯化'],
-      reversed: ['操控', '欺騙', '能力不足', '資源浪費'],
-    },
+    id: 'major-1', number: 1, name: '魔術師', nameEn: 'The Magician', suit: 'major', element: 'spirit',
+    keywords: { upright: ['創造力', '意志力', '技能', '資源充足', '顯化'], reversed: ['操控', '欺騙', '能力不足', '資源浪費'] },
     description: {
       upright: '魔術師擁有四大元素的工具，代表你已具備實現目標所需的一切資源。這張牌鼓勵你運用才能與意志力，將想法化為現實。',
       reversed: '逆位暗示你可能未充分發揮潛力，或是在利用技能操控他人。也可能感到能力不足或缺乏方向。',
@@ -40,16 +24,8 @@ export const majorArcana: TarotCard[] = [
     career: '具備成功所需的技能，適合啟動新項目或展現領導力。',
   },
   {
-    id: 'major-2',
-    number: 2,
-    name: '女祭司',
-    nameEn: 'The High Priestess',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['直覺', '潛意識', '神秘', '內在智慧', '靜待'],
-      reversed: ['忽略直覺', '表面化', '秘密', '混亂'],
-    },
+    id: 'major-2', number: 2, name: '女祭司', nameEn: 'The High Priestess', suit: 'major', element: 'spirit',
+    keywords: { upright: ['直覺', '潛意識', '神秘', '內在智慧', '靜待'], reversed: ['忽略直覺', '表面化', '秘密', '混亂'] },
     description: {
       upright: '女祭司坐在兩根柱子之間，代表意識與潛意識的門戶。她鼓勵你傾聽內在的聲音，信任直覺，不要急於行動。',
       reversed: '逆位表示你可能忽略了內心的聲音，過度依賴理性分析，或者有重要的訊息被隱藏。',
@@ -59,16 +35,8 @@ export const majorArcana: TarotCard[] = [
     career: '適合研究、學習或深入了解某個領域，運用直覺做判斷。',
   },
   {
-    id: 'major-3',
-    number: 3,
-    name: '皇后',
-    nameEn: 'The Empress',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['豐饒', '母性', '自然', '感官享受', '創造'],
-      reversed: ['依賴', '空虛', '創造力受阻', '忽略自我照顧'],
-    },
+    id: 'major-3', number: 3, name: '皇后', nameEn: 'The Empress', suit: 'major', element: 'spirit',
+    keywords: { upright: ['豐饒', '母性', '自然', '感官享受', '創造'], reversed: ['依賴', '空虛', '創造力受阻', '忽略自我照顧'] },
     description: {
       upright: '皇后是大地之母的化身，代表豐饒、美麗與創造力。她鼓勵你享受生活的美好，滋養自己與他人，讓創造力自然流動。',
       reversed: '逆位暗示你可能過度依賴他人，或忽略了對自己的照顧。創造力可能受到阻礙，需要重新連結內在的滋養力量。',
@@ -78,16 +46,8 @@ export const majorArcana: TarotCard[] = [
     career: '創意工作蓬勃發展，適合與美、藝術、照護相關的事業。',
   },
   {
-    id: 'major-4',
-    number: 4,
-    name: '皇帝',
-    nameEn: 'The Emperor',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['權威', '結構', '穩定', '父性', '領導力'],
-      reversed: ['獨裁', '控制慾', '僵化', '缺乏紀律'],
-    },
+    id: 'major-4', number: 4, name: '皇帝', nameEn: 'The Emperor', suit: 'major', element: 'spirit',
+    keywords: { upright: ['權威', '結構', '穩定', '父性', '領導力'], reversed: ['獨裁', '控制慾', '僵化', '缺乏紀律'] },
     description: {
       upright: '皇帝端坐在石造寶座上，代表秩序、權威與穩定。他鼓勵你建立結構、設定規則，用理性與紀律來達成目標。',
       reversed: '逆位暗示過度控制或權力濫用，也可能是缺乏結構與紀律，導致混亂無序。',
@@ -97,16 +57,8 @@ export const majorArcana: TarotCard[] = [
     career: '適合擔任領導角色，建立組織架構，展現權威與專業。',
   },
   {
-    id: 'major-5',
-    number: 5,
-    name: '教皇',
-    nameEn: 'The Hierophant',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['傳統', '信仰', '教導', '制度', '精神導師'],
-      reversed: ['挑戰傳統', '非主流', '自由思考', '教條主義'],
-    },
+    id: 'major-5', number: 5, name: '教皇', nameEn: 'The Hierophant', suit: 'major', element: 'spirit',
+    keywords: { upright: ['傳統', '信仰', '教導', '制度', '精神導師'], reversed: ['挑戰傳統', '非主流', '自由思考', '教條主義'] },
     description: {
       upright: '教皇代表傳統的智慧與精神指引。他鼓勵你尋求導師的指導，遵循已建立的體系，從傳統中學習。',
       reversed: '逆位暗示你可能需要挑戰既有的信念體系，走出自己的道路，而非盲目遵從傳統。',
@@ -116,16 +68,8 @@ export const majorArcana: TarotCard[] = [
     career: '適合在教育、宗教、諮詢等領域發展，或遵循既定路線晉升。',
   },
   {
-    id: 'major-6',
-    number: 6,
-    name: '戀人',
-    nameEn: 'The Lovers',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['愛情', '選擇', '和諧', '價值觀', '結合'],
-      reversed: ['不和諧', '價值衝突', '錯誤選擇', '失衡'],
-    },
+    id: 'major-6', number: 6, name: '戀人', nameEn: 'The Lovers', suit: 'major', element: 'spirit',
+    keywords: { upright: ['愛情', '選擇', '和諧', '價值觀', '結合'], reversed: ['不和諧', '價值衝突', '錯誤選擇', '失衡'] },
     description: {
       upright: '戀人牌不僅代表愛情，更代表重要的人生抉擇。天使在上方賜福，提醒你依照內心的價值觀做出選擇。',
       reversed: '逆位暗示價值觀的衝突、關係中的不和諧，或面臨困難的選擇而猶豫不決。',
@@ -135,16 +79,8 @@ export const majorArcana: TarotCard[] = [
     career: '面臨重大職業選擇，需要依照價值觀而非利益來做決定。',
   },
   {
-    id: 'major-7',
-    number: 7,
-    name: '戰車',
-    nameEn: 'The Chariot',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['勝利', '意志力', '決心', '行動力', '征服'],
-      reversed: ['失控', '方向不明', '攻擊性', '缺乏動力'],
-    },
+    id: 'major-7', number: 7, name: '戰車', nameEn: 'The Chariot', suit: 'major', element: 'spirit',
+    keywords: { upright: ['勝利', '意志力', '決心', '行動力', '征服'], reversed: ['失控', '方向不明', '攻擊性', '缺乏動力'] },
     description: {
       upright: '戰車驅使兩隻方向相反的獅身人面獸前進，代表透過堅強的意志力控制對立的力量，朝目標邁進。',
       reversed: '逆位暗示失去方向或控制力，內在的衝突阻礙了前進，或過度使用蠻力而忽略策略。',
@@ -154,16 +90,8 @@ export const majorArcana: TarotCard[] = [
     career: '事業上的突破與勝利，透過決心與努力達成重要目標。',
   },
   {
-    id: 'major-8',
-    number: 8,
-    name: '力量',
-    nameEn: 'Strength',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['內在力量', '勇氣', '耐心', '柔軟', '自信'],
-      reversed: ['自我懷疑', '脆弱', '缺乏信心', '壓抑'],
-    },
+    id: 'major-8', number: 8, name: '力量', nameEn: 'Strength', suit: 'major', element: 'spirit',
+    keywords: { upright: ['內在力量', '勇氣', '耐心', '柔軟', '自信'], reversed: ['自我懷疑', '脆弱', '缺乏信心', '壓抑'] },
     description: {
       upright: '一位女性溫柔地馴服獅子，代表真正的力量不在於蠻力，而在於內在的勇氣、耐心與慈悲。用柔軟的方式克服挑戰。',
       reversed: '逆位暗示自我懷疑與內在力量的缺失，或過度壓抑自己的情感與本能。',
@@ -173,16 +101,8 @@ export const majorArcana: TarotCard[] = [
     career: '以內在的自信與韌性面對職場挑戰，不需要依賴外在的強硬手段。',
   },
   {
-    id: 'major-9',
-    number: 9,
-    name: '隱士',
-    nameEn: 'The Hermit',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['內省', '獨處', '智慧', '尋找真理', '引導'],
-      reversed: ['孤立', '逃避', '孤獨', '拒絕幫助'],
-    },
+    id: 'major-9', number: 9, name: '隱士', nameEn: 'The Hermit', suit: 'major', element: 'spirit',
+    keywords: { upright: ['內省', '獨處', '智慧', '尋找真理', '引導'], reversed: ['孤立', '逃避', '孤獨', '拒絕幫助'] },
     description: {
       upright: '隱士提著燈籠獨自站在山頂，代表向內探索、尋找真理的旅程。他鼓勵你暫時遠離喧囂，透過獨處與沉思找到答案。',
       reversed: '逆位暗示過度孤立自己，或逃避面對現實。也可能是時候結束獨處，重新與外界連結。',
@@ -192,16 +112,8 @@ export const majorArcana: TarotCard[] = [
     career: '適合獨立研究或自主工作，深入某個專業領域。',
   },
   {
-    id: 'major-10',
-    number: 10,
-    name: '命運之輪',
-    nameEn: 'Wheel of Fortune',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['轉變', '命運', '循環', '好運', '轉捩點'],
-      reversed: ['壞運', '抗拒改變', '失控', '延遲'],
-    },
+    id: 'major-10', number: 10, name: '命運之輪', nameEn: 'Wheel of Fortune', suit: 'major', element: 'spirit',
+    keywords: { upright: ['轉變', '命運', '循環', '好運', '轉捩點'], reversed: ['壞運', '抗拒改變', '失控', '延遲'] },
     description: {
       upright: '命運之輪不斷旋轉，代表人生的起伏與變化是必然的。這張牌暗示好運即將來臨，把握時機順勢而為。',
       reversed: '逆位暗示你可能正在經歷低潮期，但要記住輪子終究會再次轉動。不要抗拒改變。',
@@ -211,16 +123,8 @@ export const majorArcana: TarotCard[] = [
     career: '職業上的轉機即將出現，保持開放心態迎接變化。',
   },
   {
-    id: 'major-11',
-    number: 11,
-    name: '正義',
-    nameEn: 'Justice',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['公正', '真相', '因果', '平衡', '責任'],
-      reversed: ['不公', '逃避責任', '偏見', '不誠實'],
-    },
+    id: 'major-11', number: 11, name: '正義', nameEn: 'Justice', suit: 'major', element: 'spirit',
+    keywords: { upright: ['公正', '真相', '因果', '平衡', '責任'], reversed: ['不公', '逃避責任', '偏見', '不誠實'] },
     description: {
       upright: '正義女神手持天秤與寶劍，代表公正的裁決與因果報應。你的行為將得到應有的結果，真相終將浮出水面。',
       reversed: '逆位暗示可能遭遇不公正的對待，或自己在逃避應負的責任。需要面對真相。',
@@ -230,16 +134,8 @@ export const majorArcana: TarotCard[] = [
     career: '法律事務、合約談判，或需要公正決策的職場情境。',
   },
   {
-    id: 'major-12',
-    number: 12,
-    name: '倒吊人',
-    nameEn: 'The Hanged Man',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['犧牲', '放下', '新視角', '等待', '順服'],
-      reversed: ['拖延', '抗拒', '白費犧牲', '固執'],
-    },
+    id: 'major-12', number: 12, name: '倒吊人', nameEn: 'The Hanged Man', suit: 'major', element: 'spirit',
+    keywords: { upright: ['犧牲', '放下', '新視角', '等待', '順服'], reversed: ['拖延', '抗拒', '白費犧牲', '固執'] },
     description: {
       upright: '倒吊人自願倒掛在樹上，面容平靜。代表透過暫時的犧牲與放下，獲得全新的視角與洞見。',
       reversed: '逆位暗示不必要的犧牲，或因固執而拒絕改變觀點。也可能是拖延不前的狀態。',
@@ -249,16 +145,8 @@ export const majorArcana: TarotCard[] = [
     career: '事業暫時停滯，但這是重新思考方向的好時機。',
   },
   {
-    id: 'major-13',
-    number: 13,
-    name: '死神',
-    nameEn: 'Death',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['結束', '轉化', '蛻變', '放下過去', '新生'],
-      reversed: ['抗拒改變', '恐懼', '停滯', '無法放手'],
-    },
+    id: 'major-13', number: 13, name: '死神', nameEn: 'Death', suit: 'major', element: 'spirit',
+    keywords: { upright: ['結束', '轉化', '蛻變', '放下過去', '新生'], reversed: ['抗拒改變', '恐懼', '停滯', '無法放手'] },
     description: {
       upright: '死神並非代表實際的死亡，而是重大的結束與轉化。舊的必須消逝，新的才能誕生。接受改變，擁抱蛻變。',
       reversed: '逆位暗示你在抗拒必要的改變，緊抓著已經結束的事物不放。放手才能迎接新的開始。',
@@ -268,16 +156,8 @@ export const majorArcana: TarotCard[] = [
     career: '舊的工作型態需要結束，準備迎接職業生涯的重大轉型。',
   },
   {
-    id: 'major-14',
-    number: 14,
-    name: '節制',
-    nameEn: 'Temperance',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['平衡', '耐心', '調和', '中庸', '療癒'],
-      reversed: ['失衡', '過度', '缺乏耐心', '衝突'],
-    },
+    id: 'major-14', number: 14, name: '節制', nameEn: 'Temperance', suit: 'major', element: 'spirit',
+    keywords: { upright: ['平衡', '耐心', '調和', '中庸', '療癒'], reversed: ['失衡', '過度', '缺乏耐心', '衝突'] },
     description: {
       upright: '天使將水在兩個杯子間來回傾倒，代表平衡、調和與耐心。鼓勵你找到中庸之道，不走極端。',
       reversed: '逆位暗示生活失去平衡，過度沉溺於某事物，或缺乏耐心導致衝突。',
@@ -287,16 +167,8 @@ export const majorArcana: TarotCard[] = [
     career: '在工作中找到平衡點，避免過度勞累或過度放鬆。',
   },
   {
-    id: 'major-15',
-    number: 15,
-    name: '惡魔',
-    nameEn: 'The Devil',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['束縛', '慾望', '物質主義', '誘惑', '陰暗面'],
-      reversed: ['解脫', '覺醒', '打破束縛', '面對恐懼'],
-    },
+    id: 'major-15', number: 15, name: '惡魔', nameEn: 'The Devil', suit: 'major', element: 'spirit',
+    keywords: { upright: ['束縛', '慾望', '物質主義', '誘惑', '陰暗面'], reversed: ['解脫', '覺醒', '打破束縛', '面對恐懼'] },
     description: {
       upright: '惡魔牌中的鏈條其實很鬆，代表我們自願受到束縛。審視哪些慾望、習慣或關係正在控制你的生活。',
       reversed: '逆位代表覺醒與解脫，你開始意識到束縛你的枷鎖，並有力量打破它們。',
@@ -306,16 +178,8 @@ export const majorArcana: TarotCard[] = [
     career: '可能被金錢或地位所困，忽略了真正重要的事物。',
   },
   {
-    id: 'major-16',
-    number: 16,
-    name: '高塔',
-    nameEn: 'The Tower',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['突變', '崩塌', '覺醒', '真相揭露', '解放'],
-      reversed: ['逃避災難', '恐懼改變', '延遲崩塌', '內在轉化'],
-    },
+    id: 'major-16', number: 16, name: '高塔', nameEn: 'The Tower', suit: 'major', element: 'spirit',
+    keywords: { upright: ['突變', '崩塌', '覺醒', '真相揭露', '解放'], reversed: ['逃避災難', '恐懼改變', '延遲崩塌', '內在轉化'] },
     description: {
       upright: '高塔被閃電擊中而崩塌，代表突如其來的劇變。雖然過程痛苦，但虛假的結構需要被摧毀，真相才能顯現。',
       reversed: '逆位暗示你可能在逃避必要的改變，或在內心層面經歷較溫和的轉化。',
@@ -325,16 +189,8 @@ export const majorArcana: TarotCard[] = [
     career: '工作環境可能出現劇變，但危機也是轉機。',
   },
   {
-    id: 'major-17',
-    number: 17,
-    name: '星星',
-    nameEn: 'The Star',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['希望', '靈感', '寧靜', '信念', '療癒'],
-      reversed: ['失去信心', '絕望', '斷開連結', '缺乏靈感'],
-    },
+    id: 'major-17', number: 17, name: '星星', nameEn: 'The Star', suit: 'major', element: 'spirit',
+    keywords: { upright: ['希望', '靈感', '寧靜', '信念', '療癒'], reversed: ['失去信心', '絕望', '斷開連結', '缺乏靈感'] },
     description: {
       upright: '經歷高塔的劇變後，星星帶來希望與療癒。裸身的女性在星空下倒水，代表靈性的更新與內心的平靜。',
       reversed: '逆位暗示失去希望與信心，感到與靈性的連結斷裂。需要重新找回內在的光。',
@@ -344,16 +200,8 @@ export const majorArcana: TarotCard[] = [
     career: '事業前景光明，充滿靈感與創意，適合追求理想。',
   },
   {
-    id: 'major-18',
-    number: 18,
-    name: '月亮',
-    nameEn: 'The Moon',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['幻象', '恐懼', '潛意識', '不確定', '直覺'],
-      reversed: ['釋放恐懼', '真相浮現', '困惑消除', '清明'],
-    },
+    id: 'major-18', number: 18, name: '月亮', nameEn: 'The Moon', suit: 'major', element: 'spirit',
+    keywords: { upright: ['幻象', '恐懼', '潛意識', '不確定', '直覺'], reversed: ['釋放恐懼', '真相浮現', '困惑消除', '清明'] },
     description: {
       upright: '月亮照耀下的景象模糊不清，代表事情並非表面所見。你可能被幻象或恐懼所困擾，需要信任直覺穿越迷霧。',
       reversed: '逆位代表迷霧漸散，恐懼被釋放，真相開始浮現。混亂的局面逐漸清明。',
@@ -363,16 +211,8 @@ export const majorArcana: TarotCard[] = [
     career: '職場上可能有不明確的狀況，不宜倉促做重大決定。',
   },
   {
-    id: 'major-19',
-    number: 19,
-    name: '太陽',
-    nameEn: 'The Sun',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['快樂', '成功', '活力', '光明', '樂觀'],
-      reversed: ['暫時陰霾', '延遲的快樂', '過度樂觀', '精力不足'],
-    },
+    id: 'major-19', number: 19, name: '太陽', nameEn: 'The Sun', suit: 'major', element: 'spirit',
+    keywords: { upright: ['快樂', '成功', '活力', '光明', '樂觀'], reversed: ['暫時陰霾', '延遲的快樂', '過度樂觀', '精力不足'] },
     description: {
       upright: '太陽是塔羅牌中最正面的牌之一。陽光照耀一切，帶來溫暖、快樂與成功。你正處於人生的光明時期。',
       reversed: '逆位暗示快樂被暫時遮蔽，但太陽仍在雲層後方。保持樂觀，光明很快會回來。',
@@ -382,16 +222,8 @@ export const majorArcana: TarotCard[] = [
     career: '事業成功順利，獲得認可與成就，充滿自信。',
   },
   {
-    id: 'major-20',
-    number: 20,
-    name: '審判',
-    nameEn: 'Judgement',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['覺醒', '重生', '召喚', '反省', '赦免'],
-      reversed: ['自我批判', '逃避召喚', '後悔', '無法原諒'],
-    },
+    id: 'major-20', number: 20, name: '審判', nameEn: 'Judgement', suit: 'major', element: 'spirit',
+    keywords: { upright: ['覺醒', '重生', '召喚', '反省', '赦免'], reversed: ['自我批判', '逃避召喚', '後悔', '無法原諒'] },
     description: {
       upright: '天使吹響號角，死者從棺材中復活。代表重大的覺醒與重生，回應內在的召喚，做出改變人生的決定。',
       reversed: '逆位暗示過度的自我批判，或忽視內在的召喚。也可能無法原諒過去的錯誤而停滯不前。',
@@ -401,16 +233,8 @@ export const majorArcana: TarotCard[] = [
     career: '職業生涯的重大轉折點，聽從內心的召喚做出改變。',
   },
   {
-    id: 'major-21',
-    number: 21,
-    name: '世界',
-    nameEn: 'The World',
-    suit: 'major',
-    element: 'spirit',
-    keywords: {
-      upright: ['完成', '圓滿', '成就', '整合', '旅程終點'],
-      reversed: ['未完成', '缺乏結束', '延遲達成', '尋求完整'],
-    },
+    id: 'major-21', number: 21, name: '世界', nameEn: 'The World', suit: 'major', element: 'spirit',
+    keywords: { upright: ['完成', '圓滿', '成就', '整合', '旅程終點'], reversed: ['未完成', '缺乏結束', '延遲達成', '尋求完整'] },
     description: {
       upright: '世界是大阿爾克那的最後一張牌，代表一個循環的圓滿完成。你已經整合了旅途中的所有經驗，達到了圓滿的境界。',
       reversed: '逆位暗示距離目標還差一步，或者感到事情尚未完整。需要耐心完成最後的步驟。',

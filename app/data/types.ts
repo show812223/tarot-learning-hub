@@ -38,10 +38,10 @@ export const elementLabels: Record<Element, string> = {
   spirit: '靈',
 };
 
-export const suitToElement: Record<Suit, Element> = {
-  major: 'spirit',
-  wands: 'fire',
-  cups: 'water',
-  swords: 'air',
-  pentacles: 'earth',
+export const suitColors: Record<Suit, string> = {
+  major: '#9b59b6',
+  wands: '#e74c3c',
+  cups: '#3498db',
+  swords: '#95a5a6',
+  pentacles: '#f39c12',
 };
